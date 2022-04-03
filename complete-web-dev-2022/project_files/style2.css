@@ -1,0 +1,44 @@
+h2 {
+    color: blue;
+}
+
+p {
+    text-decoration: underline;
+    /* text-transform: uppercase; */
+    line-height: 20px;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 30px;
+    font-family: 'Hurricane', cursive;
+}
+
+img {
+    float: left;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}
+
+.boxmodel {
+    border: 5px solid red;
+    display: inline-block;
+    padding: 20px 5px 20px 5px;
+    margin: 0px 20px;
+    width: 33px;
+    height: 55px;
+}
+
+.introduction {
+    font-size: 20px;
+}
+
+span {
+    font-size: 2em;
+}
+
+#rem {
+    font-size: 5rem;
+
+}

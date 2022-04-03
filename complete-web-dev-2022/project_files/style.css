@@ -1,0 +1,44 @@
+* {
+    text-align: right;
+}
+
+body {
+    background-image: url(backgroundImage.jpg);
+    background-size: cover;
+}
+
+h2, p {
+    color: #A43741;
+    text-align: center;
+    border: 5px dashed rgba(224, 0, 21, 0.5);
+    cursor: pointer;
+}
+
+p {
+    color: pink;
+}
+
+p {
+    color: green;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+.webtext:last-child {
+    border: 5px solid green;
+}
+
+.active:hover {
+    color: red;
+}
+
+#div1 {
+    background: rgba(0, 0, 225, 0.3);
+}
+
+#div2 {
+    background: rgba(225, 0, 0, 0.3);
+}
