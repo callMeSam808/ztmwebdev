@@ -34,7 +34,7 @@ const nObj = Object.entries(obj);
 try {
     4 + 5;
     true + 'hi';
-    bob + 'hi';
+    bob + 'hi';         // Throws error and triggers catch
 } catch {
     console.log('you messed up');
 }
